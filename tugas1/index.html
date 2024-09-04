@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="header">
+        <header> Contact Form</header>
+        <form action="contact.php" method="POST">
+            <div class="nama">
+                <input type="text" name= "nama" placeholder="Masukan Nama Anda" required>
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="nim">
+                <input type="text" name="nim"  placeholder="Masukan NIM Anda" required>
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="kelas">
+                <select class="" name="kelas">
+                    <option value="Kelas T3E"> Kelas T3E </option>
+                    <option value="Kelas T3F"> Kelas T3F </option>
+                    <option value="Kelas T3G"> Kelas T3G </option>
+                </select>
+            </div>
+            <div class="email">
+                <input type="text" name = "email" placeholder="Masukan email Anda" required>
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="pesan">
+           <textarea placeholder="Masukan Pesan Anda" name="pesan"></textarea>
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="button">
+                <a href="index.html">
+                <button type="submit" name="kirim "> Kirm</button>
+                </a>
+                </div>
+        </form>
+    </div>
+    
+</body>
+</html>

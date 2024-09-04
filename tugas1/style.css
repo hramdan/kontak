@@ -1,0 +1,60 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: blue;
+    min-height: 100vh;
+    padding: 0 10px;
+}
+
+.header{
+   width: auto;
+   background: floralwhite;
+   border-radius: 5px;
+}
+
+.header header{
+    font-size: 22px;
+    font-weight: 600;
+    padding: 20px 30px;
+    border-bottom: 1px solid #bfbfbf;
+}
+.header form {
+    margin: 30px 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nama {
+    margin: 10px 5px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.nim {
+    margin: 5px 5px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.kelas {
+    margin: 5px 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.email {
+    margin: 5px 5px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.pesan {
+    margin: 5px 5px;
+    justify-content: center;
+    size: 100px 200px;
+}
